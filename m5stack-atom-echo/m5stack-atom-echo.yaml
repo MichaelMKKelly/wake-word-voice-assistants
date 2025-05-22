@@ -1,6 +1,7 @@
 substitutions:
   name: m5stack-atom-echo
   friendly_name: M5Stack Atom Echo
+  detection_delay: 500ms
 
 esphome:
   name: ${name}
